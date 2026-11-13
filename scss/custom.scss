@@ -3,25 +3,44 @@
 
 // Import Google fonts here
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Libre+Baskerville:ital,wght@0,400..700;1,400..700&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Libre+Baskerville:ital,wght@0,400..700;1,400..700&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
 
 
 // Include any default variable overrides here (colors, font sizes, font family, etc..)
 
-
+$primary: #A04ADD;
+$secondary: #3B53C7;
+$success: #A4D882;
+$info: #59C1EF;
+$warning: #FFF689;
+$danger: #E5446D;
+$light: #f2f2f2;
+$dark: #181853;
 
 // Adjust nav link hover color here
-
+$navbar-dark-hover-color: #A04ADD;
 
 
 // Typography
 // Change font family for base text
+$font-family-base: 'Source Sans 3', sans serif;
+
 
 
 // Change font family for headings
+$headings-font-family: 'Libre Baskerville', serif; 
 
 
 
 // Change font sizes for h1-h6 using values in assignment
+$h1: 3.052rem;
+$h2: 2.441rem;
+$h3: 1.953rem;
+$h4: 1.563rem;
+$h5: 1.25rem;
+$h6: 1rem;
 
 
 
@@ -30,3 +49,6 @@
 // Add additional custom code here
 
 // Target .navbar-brand and change font-family to use 'Libre Baskerville'.
+.navbar-brand {
+    font-family:'Libre Baskerville', serif;
+}
